@@ -22,7 +22,6 @@ FYI
 • CFT uses stacks to import YAML from external sources
 ```
 
----
 
 In CloudFormation, we use Templates and Stacks.
 
@@ -46,3 +45,27 @@ Resources: Declare the AWS resources that we want to include in the stack. (Requ
 
 Outputs: Declares output values that we can import into other stacks, return in response, or view on the AWS CloudFormation console. (Optional)
 ```
+---
+# Creating a S3 Bucket using CFT
+
+1. Goto AWS Console -> Search and open AWS CloudFormation
+
+2. Click on Create stack
+
+3. Select the Template is ready
+
+4. Now use Upload a template file
+
+5.  Click on next
+
+6. Provide a name for the Stack
+
+7. Click on next and submit
+
+![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/cae09598-6195-4014-80d1-da49ae0d59e3)
+
+   Now go to the S3 buckets and verify the bucket created you will see two of them, one that you have created and other is CFT creates for storing the templates
+   
+![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/490ab52b-3611-4ad0-ac85-1e7cb97c141e)
+
+   
