@@ -80,3 +80,20 @@ Outputs: Declares output values that we can import into other stacks, return in 
 
 ---
 # Creating a S3 Bucket with Versioning using CFT and checking Drifts:
+
+1. Goto AWS Console -> Search and open AWS CloudFormation
+
+2. Click on Create stack
+
+3. Select the Template is ready
+
+4. Now use Upload a template file
+
+5.  Click on next
+
+6. Provide a name for the Stack
+
+7. Click on next and submit
+
+8. Now go to the S3 buckets and verify the bucket created you will see two of them, one that you have created and other is CFT creates for storing the templates
+
