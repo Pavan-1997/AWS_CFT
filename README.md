@@ -46,7 +46,7 @@ Resources: Declare the AWS resources that we want to include in the stack. (Requ
 Outputs: Declares output values that we can import into other stacks, return in response, or view on the AWS CloudFormation console. (Optional)
 ```
 ---
-# Creating a S3 Bucket using CFT
+# Creating a S3 Bucket using CFT and checking Drifts:
 
 1. Goto AWS Console -> Search and open AWS CloudFormation
 
@@ -77,3 +77,6 @@ Outputs: Declares output values that we can import into other stacks, return in 
 ![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/842cdc84-9d04-4534-a934-3c41252cc278)
 
 12. Now goto Stacks -> Stack details -> Stack actions -> Click on View drift results, which shows again the same page because the bucket has been deleted
+
+---
+# Creating a S3 Bucket with Versioning using CFT and checking Drifts:
