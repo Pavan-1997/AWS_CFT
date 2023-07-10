@@ -97,3 +97,27 @@ Outputs: Declares output values that we can import into other stacks, return in 
 
 8. Now go to the S3 buckets and verify the bucket created you will see two of them, one that you have created and other is CFT creates for storing the templates
 
+9. Now go to S3 bucket that has been created -> Goto Properties
+
+    Now you can see that the Bucket Versioning is Enable
+   
+![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/a0e9b174-d2c4-457e-9599-f6dcfe1f2705)
+
+11. Now manually change the Bucket Versioning to Suspend to check the Drifts
+
+![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/7633246a-852f-4de1-b74d-afcf01c930b5)
+
+11. Now goto Stacks and Click on Drifts
+
+12. Click on Detect stack drifts
+
+13. Now goto Stacks -> Stack details -> Stack actions -> Click on View drift results, should see as below
+
+![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/d60f1e97-d174-4a91-bc67-3b96cb2197ea)
+
+14. Now select the Resource drift status and click on  View drift details
+
+    Which clearly shows the bucket version chnage we have done
+    
+![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/8975a1b1-2d78-44e1-9406-a8c50a1f9e07)
+
