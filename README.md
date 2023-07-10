@@ -62,10 +62,18 @@ Outputs: Declares output values that we can import into other stacks, return in 
 
 7. Click on next and submit
 
+8. Now go to the S3 buckets and verify the bucket created you will see two of them, one that you have created and other is CFT creates for storing the templates
+
 ![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/cae09598-6195-4014-80d1-da49ae0d59e3)
 
-   Now go to the S3 buckets and verify the bucket created you will see two of them, one that you have created and other is CFT creates for storing the templates
-   
 ![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/490ab52b-3611-4ad0-ac85-1e7cb97c141e)
 
-   
+9. Now delete the S3 bucket that has been created 
+
+10. Now goto Stacks and Click on Drifts
+
+11. Click on Detect stack drifts
+
+![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/842cdc84-9d04-4534-a934-3c41252cc278)
+
+12. Now goto Stacks -> Stack details -> Stack actions -> Click on View drift results, which shows again the same page because the bucket has been deleted
