@@ -21,3 +21,28 @@ FYI
 
 • CFT uses stacks to import YAML from external sources
 ```
+
+---
+
+In CloudFormation, we use Templates and Stacks.
+
+- Template: JSON or YAML formatted text file which is a blueprint of your AWS resources.
+
+- Stack: In CloudFormation, you manage resources as a single unit called a Stack. All the resources in a stack are defined by the stack’s Template.
+
+![image](https://github.com/Pavan-1997/AWS_CFT/assets/32020205/3a4f1e5b-ad8f-449c-8870-24059b13329c)
+
+
+The following are the major components of the template:
+
+```
+Description: Enables you to include arbitrary comments about your template. (Optional)
+
+Parameters: Parameters enable you to input custom values to your template each time you create or update a stack. (Optional)
+
+Mappings: Collection of Key-Value pairs which can be used to set values. (Optional)
+
+Resources: Declares the AWS resources that you want to include in the stack. (Required)
+
+Outputs: Declares output values that you can import into other stacks, return in response, or view on the AWS CloudFormation console. (Optional)
+```
